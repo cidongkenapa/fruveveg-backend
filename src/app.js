@@ -8,8 +8,13 @@ const app = express()
 app.use(express.json())
 
 app.use(cors({
-  origin: 'http://localhost:5173', // frontend URL
-  credentials: true,               // kalau nanti pakai cookies/auth
+  origin: [
+    'http://localhost:5173',
+    'https://fruveveg-frontend.vercel.app',
+    'https://fruveveg-frontend-git-main-cidongkenapa.vercel.app', // Ganti cidongkenapa dengan username GitHub kamu
+    /\.vercel\.app$/  // Allow all Vercel preview deployments
+  ],
+  credentials: true,
 }))
 app.use(loggerMiddleware)
 
