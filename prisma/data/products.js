@@ -207,4 +207,12 @@ export const products = [
     description: "Wortel yang di tanam dengan hati",
     image: "/images/wortel.jpg",
   },
+  {
+    name : "Gajah Ciwandan",
+    price : 1,
+    stock : 1,
+    categoryId : 2,
+    description : "Gajah premium berkualitas tinggi dengan kontol mendelep",
+    image : "/image/IMG_2263.jpg"
+  }
 ];
