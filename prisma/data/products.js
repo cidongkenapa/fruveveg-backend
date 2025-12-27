@@ -213,6 +213,6 @@ export const products = [
     stock : 1,
     categoryId : 2,
     description : "Gajah premium berkualitas tinggi dengan kontol mendelep",
-    image : "/image/IMG_2263.jpg"
+    image : "/images/gajah.jpg"
   }
 ];
