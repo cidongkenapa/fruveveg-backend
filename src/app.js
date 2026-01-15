@@ -10,7 +10,7 @@ app.use(express.json())
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://fruveveg-frontend.vercel.app',
+    'https://fruveveg.vercel.app',
     'https://fruveveg-frontend-git-main-cidongkenapa.vercel.app', // Ganti cidongkenapa dengan username GitHub kamu
     /\.vercel\.app$/  // Allow all Vercel preview deployments
   ],
